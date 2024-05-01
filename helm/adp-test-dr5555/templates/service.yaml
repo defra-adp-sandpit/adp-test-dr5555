@@ -1,0 +1,4 @@
+{{- include "adp-helm-library.cluster-ip-service" (list . "adp-test-dr5555.cluster-ip-service") -}}
+{{- define "adp-test-dr5555.cluster-ip-service" -}}
+{{- end -}}
+

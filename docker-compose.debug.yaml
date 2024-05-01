@@ -1,0 +1,3 @@
+services:
+  adp-test-dr5555:
+    command: npm run start:debug

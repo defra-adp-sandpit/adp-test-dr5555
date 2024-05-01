@@ -1,0 +1,10 @@
+services:
+  adp-test-dr5555:
+    build:
+      context: .
+      target: production
+    image: adp-test-dr5555
+    container_name: adp-test-dr5555
+    environment:
+      APPINSIGHTS_CLOUDROLE: adp-test-dr5555-local
+      APPINSIGHTS_CONNECTIONSTRING: ${APPINSIGHTS_CONNECTIONSTRING}
